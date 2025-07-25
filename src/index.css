@@ -1,0 +1,48 @@
+body {
+  background-color: aquamarine;
+}
+
+header {
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav {
+  height: 84px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+}
+
+nav li {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.button-container {
+  display: flex;
+  gap: 14px;
+}
+
+.button-dark,
+.button-normal {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: 0;
+}
+
+.button-dark {
+  background-color: #4caf4f;
+  color: white;
+}
+
+.button-normal {
+  background-color: #f5f7fa;
+  color: #4caf4f;
+}
