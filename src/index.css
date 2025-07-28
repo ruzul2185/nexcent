@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 body {
   background-color: aquamarine;
 }
@@ -45,4 +47,56 @@ nav li {
 .button-normal {
   background-color: #f5f7fa;
   color: #4caf4f;
+}
+
+section {
+  background-color: #f5f7fa;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#hero {
+  max-height: 600px;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+#hero-image {
+  width: 100%;
+}
+
+.highlight {
+  color: #4caf4f;
+}
+
+.hero-title {
+  /* font-size: 5vw; */
+  font-size: clamp(40px, 5vw, 70px);
+  margin: 0;
+}
+
+.hero-subtext {
+  color: #717171;
+  margin: 0;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+  font-family: "Inter", monospace;
+}
+
+.custom-padding {
+  padding: 20px 40px !important;
+  font-size: large;
 }
