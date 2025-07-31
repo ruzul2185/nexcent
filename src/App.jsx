@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Sponsor from "./components/Sponsor";
 import Community from "./components/Community";
 import Strip from "./components/Strip";
+import Statistics from "./components/Statistics";
 
 const StripData = [
   {
@@ -31,7 +32,7 @@ const App = () => {
         title={StripData[0].title}
         subtext={StripData[0].subtext}
       />
-      <div>stats</div>
+      <Statistics />
       <Strip
         image={StripData[1].image}
         title={StripData[1].title}

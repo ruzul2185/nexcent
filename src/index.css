@@ -144,6 +144,7 @@ section {
   padding: 20px 0;
   max-width: 1400px;
   margin: 0 auto;
+  background-color: white !important;
 }
 
 #community {
@@ -228,5 +229,95 @@ section {
     margin-bottom: 50px;
     color: #717171;
     font-size: 16px;
+  }
+}
+
+#statistics {
+}
+
+#statistics {
+  #container {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #head-text {
+    color: #4d4d4d;
+    margin-bottom: 0;
+  }
+  #text-container {
+    font-size: 36px;
+  }
+  p {
+    font-size: 16px;
+  }
+  #grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 50%;
+    place-content: center;
+  }
+}
+
+#statcard {
+  display: flex;
+}
+
+#statcard {
+  h2 {
+    margin-bottom: 0;
+    color: #4d4d4d;
+  }
+  p {
+    margin-top: 0;
+    color: #717171;
+  }
+  img {
+    margin-right: 10px;
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    li {
+      display: none;
+    }
+  }
+
+  #community {
+    #card-grid {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+
+  #strip {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  #strip {
+    #container {
+      width: 100%;
+    }
+    h2 {
+      width: 100%;
+    }
+  }
+
+  #statistics {
+    #container {
+      flex-direction: column;
+      align-items: center;
+    }
+    #grid-container {
+      width: 100%;
+      place-items: center;
+    }
   }
 }
